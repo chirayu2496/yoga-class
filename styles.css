@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+body{
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+#top_main{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 10%;
+}
+
+.logo img{
+    height: 50%;
+    width: 50%;
+    background-color:#6b9793;
+    padding: 3%;
+    padding-bottom: 10%;
+   
+}
+.navbar{
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link{
+  font-size: 21px;
+  font-weight: 600;
+  color: #444444;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.navbar a:hover{
+  background-color: #bed2ce;
+}
+
+.allimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Shape{
+  z-index: 1;
+}
+
+.yoga_girl{
+  z-index: 2;
+  position: absolute;
+  border-radius: 60%;
+  height: 360px;
+  width: 360px;
+  border-style:solid;
+  border-color: #bed2ce;
+}
+
+@media all and (max-width: 800px){
+  .yoga_girl{
+    z-index: 2;
+    position: absolute;
+    border-radius: 60%;
+    height: 250px;
+    width: 250px;
+    border-style:solid;
+    border-color: #bed2ce;
+  }
+  .btwshape{
+    display: none;
+      
+    }
+
+    .leaf2{
+      display: none;
+    }
+    .fish{
+      display: none;
+    }
+
+}
+
+.home_info{
+ text-align: center;
+ align-items: center;
+  padding: 20% 5% 0 5%;
+}
+
+.home_info h1{
+  width: fit-content;
+  font-size: 100px;
+  font-weight: 600;
+  color: #6c9894;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.home_info p{
+  padding: 0 10% 0 10%;
+  font-size: 21px;
+  color: #6c9894;
+  font-weight: 400;
+  text-align: center;
+}
+
+.home_info .btn{
+ background-color: #6c9894;
+
+}
+.home_info a{
+  font-size: 17px;
+  letter-spacing: 4px;
+  color: #fefefc;
+  font-weight: bold;
+}
+
+
+#second{
+  width: 100%;
+  height: 100%;
+  background-color: #6c9793;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  text-align: center;
+
+ 
+
+}
+#second h2{
+  font-size: 75px;
+  color: #f4f9f4;
+  font-weight: 600;
+  font-family: 'Baloo Bhai 2', cursive;
+  text-align: center;
+ 
+}
+
+#second p{
+  font-size: 30px;
+  color: #f4f9f4;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 20% 0 20%;
+}
+
+
+.btwshape{
+position: absolute;
+left: 72%;
+top: 78%;
+  
+}
+
+
+.allyoga{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Shapew{
+  z-index: 1;
+}
+
+.yoga_asan{
+  z-index: 2;
+  position: absolute;
+  border-radius: 60%;
+  height: 280px;
+  width: 280px;
+  border-style:solid;
+  border-color: #bed2ce;
+}
+
+#second h4{
+  font-weight: 600;
+  font-size: 37px;
+  color: #f4f9f4;
+  text-align: center;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+#second .row p{
+  font-size: 22px;
+  color: #f4f9f4;
+  font-weight: 400;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+#three{
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding-right: 2%;
+  padding-bottom: 10%;
+  padding-top: 5%;
+
+}
+
+#three .row{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.fish{
+ position: absolute;
+}
+.leaf2{
+position: absolute;
+top: 310%;
+}
+
+#three h2{
+  font-size: 75px;
+  color: #6c9894;
+  font-weight: 600;
+  font-family: 'Baloo Bhai 2', cursive;
+  text-align: center;
+}
+
+#three p{
+  font-size: 30px;
+  color: #6c9894;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 10% 0 10%;
+}
+
+.sec_text h3{
+  font-size: 67px;
+  color: #6c9894;
+  font-weight: 400;
+  font-family: 'Baloo Bhai 2', cursive;
+  text-align: center;
+}
+.sec_text p{
+  font-size: 27px;
+  color: #6c9894;
+  font-weight: 400;
+  font-family: 'Baloo Bhai 2', cursive;
+  text-align: center;
+}
+
+.img_and_text{
+  padding-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round{
+  z-index: 1;
+}
+
+.sec_text{
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  border-radius: 60%;
+ 
+}
+
+#four{
+  background-color: #6b9793;
+}
+
+#four .container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#four .row {
+ align-items: center;
+}
+
+.textforyoga{
+  padding: 5%;
+}
+
+.textforyoga h2{
+  font-size: 400%;
+  color: #f4f9f4;
+  font-weight: 600;
+  font-family: 'Baloo Bhai 2', cursive;
+
+}
+.textforyoga p{
+  font-size: 30px;
+  color: #f4f9f4;
+  font-weight: 400;
+}
+.textforyoga a{
+  padding: 0px 25px 0px 25px;
+  color: #6b9793;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+
+
+#five{
+  background-color: #ffffff;
+}
+
+#five .container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#five .row {
+ align-items: center;
+}
+
+.textforyoga2{
+  padding: 10%;
+}
+
+.imgforyoga2 img{
+  padding: 10%;
+}
+
+.textforyoga2 h2{
+  font-size: 400%;
+  color: #6b9793;
+  font-weight: 600;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+.textforyoga2 p{
+  font-size: 30px;
+  color: #6b9793;
+  font-weight: 400;
+}
+.textforyoga2 a{
+  padding: 0px 25px 0px 25px;
+  background-color: #6b9793;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#pricing{
+  text-align: center;
+  background-color: #6b9793;
+  align-items: center;
+  padding: 10%;
+  padding-top: 0;
+  padding-bottom: 5%;
+}
+
+#pricing .card{
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.card img{
+  height: 70%;
+  width: 60%;
+  align-items: center;
+ 
+}
+
+#pricing h2{
+  padding-top: 5%;
+  font-size: 75px;
+  color: #f4f9f4;
+  font-family: 'Baloo Bhai 2', cursive;
+  text-align: center;
+  font-weight: 600;
+}
+
+#pricing p{
+  text-align: center;
+  font-size: 30px;
+  color: #f4f9f4;
+  font-weight: 400;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#pricing .row h4{
+  font-size: 30px;
+  color: #6c9894;
+  font-weight: 600;
+  font-family: 'Baloo Bhai 2', cursive;
+  text-align: center;
+}
+
+#pricing .row p{
+  padding-top: 10%;
+  font-size: 22px;
+  color: #6c9894;
+  font-weight: 400;
+}
+
+#pricing .row a{
+  background-color:#6b9793;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+#pricing .row a:hover{
+  color: #000000;
+}
+.pricing-col{
+  padding: 2%;
+}
+
+
+#instructor{
+  background-color: #ffffff;
+  padding: 5%;
+}
+
+
+.trainer_pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tr_des{
+  z-index: 1;
+}
+
+.tr_pic{
+  z-index: 2;
+  position: absolute;
+  border-radius: 60%;
+  height: 300px;
+  width: 300px;
+  border-style:solid;
+  border-color:#6b9793;
+}
+
+.trainer_text p{
+  font-size: 45px;
+  color: #6c9894;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.trainer_text h3{
+  font-size: 58px;
+  color: #6b9793;
+  font-family: 'Baloo Bhai 2';
+  text-align: center;
+  font-weight: 600;
+}
+
+#update{
+  background-color: #6b9793;
+  padding: 10%;
+  text-align: center;
+}
+
+#update h3{
+  font-size: 75px;
+  font-weight: 600;
+  color: #f4f9f4;
+  font-family: 'Baloo Bhai 2';
+  text-align: center;
+}
+
+#update p{
+  font-size: 30px;
+  color: #f4f9f4;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#update .button{
+ padding: 0;
+ margin: 0;
+ height: 42px;
+ border-radius: 15%;
+ background-color: #ffffff;
+ color: #6b9793;
+ font-family: 'Baloo Bhai 2';
+ font-size: 20px;
+ font-weight: 600;
+}
+
+#update .email{
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  width: 50%;
+  border-radius: 8%;
+ 
+}
+
+#footer{
+  padding: 5%;
+  background-color: #ffffff;
+}
+
+#footer h2{
+  font-size: 40px;
+  color: #6c9894;
+  font-weight: 600;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+#footer p{
+font-size: 25px;
+color: #6c9894;
+font-weight: 400;
+padding-right: 15%;
+}
+
+#footer img{
+  height: 16%;
+  width: 16%;
+ margin: 3%;
+}
+
+#footer h3{
+  font-size: 33px;
+  color: #6c9894;
+  font-weight: 600;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+#footer a{
+  font-size: 20px;
+  color: #6c9894;
+  font-weight: 400;
+}
